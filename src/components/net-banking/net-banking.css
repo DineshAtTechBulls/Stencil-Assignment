@@ -1,0 +1,129 @@
+
+
+:host {
+  display: block;
+}
+
+.backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal{
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 500px;  
+  width: 50%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #e75d0c;
+  
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(236, 236, 236,1);
+}
+
+.common{
+  padding: 5px;
+
+}
+
+.logo{
+  width: 60px;
+}
+
+.popularBank{
+  display: flex;
+  padding: 6px;
+  flex-wrap: wrap;
+  flex: 1;  
+}
+
+img{
+  padding: 5px;
+  
+}
+
+.orange-shade{
+  filter: brightness(1.2) hue-rotate(30deg);
+}
+
+.image-wrapper{
+  padding: 3px;
+  margin: 5px;
+  background-color: white;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #dd6d23;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #e4661c;
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .custom-select {
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #4caf50; 
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  .custom-select:hover {
+    border-color: #45a049;
+  }
+  
+  .custom-select:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .bank-list-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .selected{
+    box-shadow: 0 0 10px orangered inset;
+  }
+
+  
